@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Food Quiz</title>
 </head>
 <body>
+    <header class="col-sm-8 text-left">
+        <h1 class="pull-left" id="highscores"></h1>
+        <h2 class="pull-right" id="timer"></h2>
+    </header>
+    <main>
+        <section class="container">
+        <h1>Can You Cook?</h1>
+        <p>Answer all the questions in the set amount of time.  For every
+            right answer you get a point.  For every wrong answer you lose time.
+            See how you did at the end of the quiz.  Good Luck!  Hit the 
+            button to get started.
+        </p>
+        <button type="button" class="btn btn-primary" id="mainButton">Go!</button>
+        </section>
+    </main>
 
-    <script type="text/javascript" scr="script.js"></script>    
+    <script type="text/javascript" src="script.js"></script>    
 </body>
 </html>
